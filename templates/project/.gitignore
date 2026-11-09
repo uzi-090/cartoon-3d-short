@@ -1,0 +1,10 @@
+node_modules/
+out/
+tmp/
+voice/
+public/*
+!public/.gitkeep
+.env
+.env.*
+*.log
+__pycache__/

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cartoon 3D Short"
+  short_description: "Story-to-animation workflow with supplied voiceover"
+  default_prompt: "Use $cartoon-3d-short to develop my story, ask about missing preferences, and animate it after I provide the voiceover."

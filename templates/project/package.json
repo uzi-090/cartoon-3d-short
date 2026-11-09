@@ -1,0 +1,32 @@
+{
+  "name": "cartoon-short-project",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "studio": "remotion studio src/index.ts",
+    "still": "node scripts/render.mjs still",
+    "demo": "node scripts/render.mjs demo",
+    "render": "node scripts/render.mjs final"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.2",
+    "@remotion/bundler": "4.0.539",
+    "@remotion/cli": "4.0.539",
+    "@remotion/renderer": "4.0.539",
+    "@remotion/three": "4.0.539",
+    "postprocessing": "6.39.5",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.539",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.180.0",
+    "typescript": "7.0.2"
+  },
+  "engines": {"node": ">=22"}
+}
